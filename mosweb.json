@@ -2,5 +2,6 @@
   "name": "MosWeb",
   "symbol": "MOSW",
   "description": "MosWeb token",
+  "image": "https://raw.githubusercontent.com/moswebgr/mosweb-token/master/mosweb.jpg",
   "seller_fee_basis_points": 0
 }
