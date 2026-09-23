@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MosWeb — MOSW</title>
+  <meta name="description" content="MosWeb (MOSW) — a Solana token built for the MosWeb ecosystem.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #050505;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 30px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 25px;
+      opacity: 0.8;
+    }
+
+    nav a:hover {
+      opacity: 1;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 100px 8%;
+      text-align: center;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: clamp(50px, 10vw, 100px);
+      margin-bottom: 15px;
+    }
+
+    .symbol {
+      font-size: 24px;
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .description {
+      max-width: 650px;
+      margin: 0 auto 40px;
+      font-size: 20px;
+      line-height: 1.7;
+      opacity: 0.8;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+
+    .contract {
+      margin-top: 70px;
+      padding: 25px;
+      border: 1px solid #222222;
+      border-radius: 12px;
+      background: #0b0b0b;
+    }
+
+    .contract-title {
+      opacity: 0.6;
+      margin-bottom: 10px;
+    }
+
+    .token-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 25px 0 35px;
+    }
+
+    .token-grid div {
+      padding: 20px 12px;
+      background: #111111;
+      border: 1px solid #222222;
+      border-radius: 10px;
+    }
+
+    .token-grid span {
+      display: block;
+      font-size: 12px;
+      opacity: 0.5;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .token-grid strong {
+      font-size: 17px;
+    }
+
+    .address {
+      word-break: break-all;
+      font-family: monospace;
+      font-size: 14px;
+      opacity: 0.85;
+    }
+
+    .copy-button {
+      margin-top: 18px;
+      padding: 11px 18px;
+      border: 1px solid #333333;
+      border-radius: 8px;
+      background: #ffffff;
+      color: #000000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .copy-button:hover {
+      background: #dddddd;
+    }
+
+    @media (max-width: 700px) {
+      .token-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <img src="https://raw.githubusercontent.com/moswebgr/mosweb-token/master/mosweb.jpg" alt="MosWeb logo">
+    <span>MosWeb</span>
+  </div>
+
+  <nav>
+    <a href="#token">Token</a>
+    <a href="https://github.com/moswebgr/mosweb-token" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+<main>
+
+  <img
+    class="logo"
+    src="https://raw.githubusercontent.com/moswebgr/mosweb-token/master/mosweb.jpg"
+    alt="MosWeb logo"
+  >
+
+  <h1>MosWeb</h1>
+
+  <div class="symbol">MOSW · Solana</div>
+
+  <p class="description">
+    MosWeb is a token on the Solana blockchain.
+    Explore MOSW, its metadata, and the MosWeb project.
+  </p>
+
+  <div class="buttons">
+    <a
+      class="button"
+      href="https://explorer.solana.com/address/EPHp2fApU4iXYNeiZ4ufv58PB85EJaqHesQZFpVNXtvL?cluster=devnet"
+      target="_blank"
+    >
+      View on Solana Explorer
+    </a>
+
+    <a
+      class="button"
+      href="https://github.com/moswebgr/mosweb-token"
+      target="_blank"
+    >
+      GitHub
+    </a>
+  </div>
+
+  <section id="token" class="contract">
+
+    <div class="contract-title">MOSW TOKEN</div>
+
+    <div class="token-grid">
+      <div>
+        <span>Network</span>
+        <strong>Solana</strong>
+      </div>
+
+      <div>
+        <span>Symbol</span>
+        <strong>MOSW</strong>
+      </div>
+
+      <div>
+        <span>Total Supply</span>
+        <strong>1,000,000,000</strong>
+      </div>
+
+      <div>
+        <span>Decimals</span>
+        <strong>6</strong>
+      </div>
+    </div>
+
+    <div class="contract-title">Token Mint</div>
+
+    <div class="address" id="mint">
+      EPHp2fApU4iXYNeiZ4ufv58PB85EJaqHesQZFpVNXtvL
+    </div>
+
+    <button class="copy-button" onclick="copyMint()">
+      Copy Contract
+    </button>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2026 MosWeb
+</footer>
+
+<script>
+function copyMint() {
+  const mint = document.getElementById("mint").textContent.trim();
+  navigator.clipboard.writeText(mint);
+
+  const button = document.querySelector(".copy-button");
+  button.textContent = "Copied!";
+  setTimeout(() => {
+    button.textContent = "Copy Contract";
+  }, 1500);
+}
+</script>
+
+</body>
+</html>
